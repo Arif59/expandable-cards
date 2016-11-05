@@ -10,6 +10,7 @@ html {
 body {
   background: #efefef;
   font-family: Roboto, sans-serif;
+	font-size: 100%
 }
 
 .wrapper {
@@ -46,6 +47,7 @@ body {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
+
 
 .card-clip {
   position: relative;
