@@ -271,36 +271,36 @@ body {
 }
 
 
-// --------------------------------
+
 
 
 
 @media screen and (min-width: 80em) {
-	body {
-		font-size: 105%
-	}	
+  body {
+    font-size: 105%
+  }	
 }
 
 @media screen and (min-width: 100em) {
-	body {
-		font-size: 150%
-	}	
+  body {
+    font-size: 150%
+  }	
 }
 
 @media screen and (min-width: 120em) {
-	body {
-		font-size: 200%
-	}	
+  body {
+    font-size: 200%
+  }	
 }
 
 @media screen and (min-width: 140em) {
-	body {
-	  font-size: 250%
-	}	
+  body {
+    font-size: 250%
+  }	
 }
 
 @media screen and (min-width: 160em) {
-	body {
-		font-size: 300%
-	}	
+  body {
+    font-size: 300%
+  }	
 }
