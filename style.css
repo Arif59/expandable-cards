@@ -33,6 +33,9 @@ body {
   -webkit-transform: scale(1, 0.4);
           transform: scale(1, 0.4);
   cursor: pointer;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .card-clip {
@@ -45,6 +48,9 @@ body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow: hidden;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .card-clip.expanded {
@@ -82,6 +88,9 @@ body {
   transition: 0.5s;
   -webkit-transform: scale(0.6, 0.6);
           transform: scale(0.6, 0.6);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .duarte {
@@ -105,6 +114,9 @@ body {
   left: 0.8em;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .name-info span {
@@ -136,6 +148,9 @@ body {
   -webkit-transform: scale(0.5, 0.5);
           transform: scale(0.5, 0.5);
   opacity: 0;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .card-expanded-content.expanded {
@@ -172,6 +187,9 @@ body {
   transition: opacity 0s, transform 0.5s 0s;
   transition: opacity 0s, transform 0.5s 0s, -webkit-transform 0.5s 0s;
   cursor: pointer;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .next.expanded {
