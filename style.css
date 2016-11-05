@@ -10,7 +10,7 @@ html {
 body {
   background: #efefef;
   font-family: Roboto, sans-serif;
-	font-size: 100%
+  font-size: 100%
 }
 
 .wrapper {
@@ -283,24 +283,24 @@ body {
 
 @media screen and (min-width: 100em) {
 	body {
-		font-size: 125%
+		font-size: 150%
 	}	
 }
 
 @media screen and (min-width: 120em) {
 	body {
-		font-size: 155%
+		font-size: 200%
 	}	
 }
 
 @media screen and (min-width: 140em) {
 	body {
-		font-size: 195%
+	  font-size: 250%
 	}	
 }
 
 @media screen and (min-width: 160em) {
 	body {
-		font-size: 255%
+		font-size: 300%
 	}	
 }
